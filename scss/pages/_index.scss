@@ -1,0 +1,155 @@
+.contx {
+    background: $var-color-background;
+    background: $var-color-background-gradiant;
+    padding: 0px 10px 10px 10px;
+}
+
+.conteiner-carousel {
+    height: 300px;
+    overflow: hidden;
+}
+
+.carousel-indicators {
+    position: static;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.carousel {
+    margin-left: 12%;
+    height: 100%;
+    position: relative;
+    width: 75%;
+    transition: 1sec;
+}
+
+.btn-carousel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5%;
+
+    a {
+        i svg {
+            color: $var-color-font;
+        }
+
+        text-decoration: none;
+    }
+}
+
+.items-carousel {
+    background-color: $var-color-carousel;
+    border-bottom: 1px solid $var-color-font;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 0.5em;
+    height: 80px;
+}
+
+.items {
+    align-items: center;
+    background-color: $var-items-bg-color;
+    border-radius: 1%;
+    width: 10em;
+    height: 3.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.carr-index {
+    background: $var-color-bg-carr-index ;
+}
+
+.items {
+    &:hover {
+        background-color: $var-bg-color-hover;
+    }
+
+    a {
+        text-decoration: none;
+        color: $var-color-font-cards;
+    }
+}
+
+.contenedor-info-1 {
+    color: $var-color-font-cards;
+    width: 800px;
+    border: $var-border-content;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+
+    button:hover {
+        background-color: $var-bg-color-hover;
+    }
+}
+
+.text {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    color: $var-color-font-cards;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-info-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 10px;
+}
+
+.contenedor-info-img {
+    background-size: 100%;
+    width: 300px;
+}
+
+.contenedor-info {
+    padding-top: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    background-color: $var-bg-color-contenedor-info;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-indicators [data-bs-target] {
+    text-indent: 0%;
+    height: auto;
+    width: 100px;
+    border: 1px solid transparent;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contenedor-info button {
+    margin-top: 130px;
+    align-items: center;
+    border: $var-border-content-buttons ;
+    background-color: $var-bg-color-btn-hover;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+}
+
+.transform:hover {
+    background-color: $var-bg-color-target;
+}

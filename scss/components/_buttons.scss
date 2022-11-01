@@ -1,0 +1,30 @@
+.gradiant-btn {
+    display: flex;
+    width: 104px;
+    height: auto;
+    justify-content: center;
+    border-radius: 2rem;
+    background: linear-gradient(100deg, #f47500 25%, #3a4ed5 75%);
+    background-repeat: repeat;
+    align-items: center;
+
+    &:hover {
+        color: #f37400;
+        background: linear-gradient(100deg, #3a4ed5 25%, #f47500 75%);
+    }
+
+    button:hover {
+        color: #f37400;
+    }
+}
+
+.btn-buy button {
+    width: 100px;
+    border: transparent;
+    letter-spacing: 0.2em;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1rem;
+    height: 27px;
+    background: grey;
+}

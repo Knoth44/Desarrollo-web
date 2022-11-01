@@ -1,0 +1,252 @@
+@media (max-width: 576px) {
+  /* ----------HOME---------------- */
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-item img {
+    height: auto;
+  }
+
+  .carousel {
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    text-indent: -999999px;
+    border: 1px solid transparent;
+    margin: 10px;
+    height: 3px;
+    width: 50px;
+  }
+
+  .contenedor-info-card {
+    justify-content: center;
+
+    h2 {
+      letter-spacing: 0.3rem;
+      color: #f37400;
+    }
+  }
+
+  .contenedor-info-1 {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #fff;
+  }
+
+  .contenedor-info-img {
+    width: 81%;
+
+    img {
+      border-radius: 10px;
+    }
+  }
+
+  .contenedor-info button {
+    border-radius: 20px;
+    margin: 0px;
+  }
+
+  /* ----------TIENDA-------------- */
+
+  .contenerdor-shop-titless h1 {
+    font-size: x-large;
+  }
+
+  .shop-carts {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .contenedor-tienda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-buy {
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .tienda-informacion p {
+    text-align: initial;
+    font-size: 15px;
+  }
+
+  .btn-buy button {
+    font-size: 0.8rem;
+    height: 34px;
+  }
+
+  /* ---------Formulario----------- */
+
+  .main-content {
+    background-image: url(https://www.tematika.com/media/catalog/Ilhsa/Imagenes/683542.jpg);
+    background-size: cover;
+  }
+
+  .conteiner-formulario {
+    color: black;
+    font-weight: bolder;
+    background-color: #f375008f;
+    opacity: initial;
+    width: 80%;
+    border-radius: 10px;
+  }
+
+  .main-form-title {
+    background-color: #f3750052;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-inputs2 input {
+    width: 93%;
+  }
+
+  /* ---------Sobre Nosotros------- */
+
+  .main-img-fondo img {
+    border-bottom: 2px solid white;
+  }
+
+  .main-imagen-logo {
+    flex-direction: column;
+  }
+
+  .info-dev {
+    width: 69%;
+    border-radius: 10px;
+    height: auto;
+  }
+
+  .info-dev-img {
+    height: 58px;
+  }
+
+  .stats-us {
+    width: 80%;
+    flex-direction: column;
+    opacity: 0.97;
+  }
+
+  .img-us {
+    display: none;
+  }
+
+  .contenedor-about {
+    background-image: url("https://i.blogs.es/93ef0f/blue-lock/450_1000.jpeg");
+    flex-direction: column;
+  }
+
+  .title-about-us {
+    width: 80%;
+    text-align: center;
+  }
+
+  .main-imagen-logo h1 {
+    font-size: 1.7rem;
+  }
+
+  // ---------Explorar---------------
+  .shop-product-conteiner {
+    font-size: 17px;
+    flex-direction: column;
+    &--productos{
+      width: 100%;
+    }
+    &--lista{
+      width: 100%;
+    }
+  }
+  .shop-product--price{
+    flex-direction: column;
+    align-items: initial;
+    &--btn {
+      align-self: flex-end;
+    }
+  }
+  .contenerdor-shop-title {
+    width: 100%;
+  }
+  .shop-grid {
+    width: 90%;
+    width: -moz-available;
+    justify-content: flex-start;
+    overflow-y: scroll;
+  }
+  .shop-cart{
+    width: 30%;
+  }
+  /* ---------mbl-footer----------- */
+
+  .content-footer {
+    display: none;
+  }
+
+  .footer-mbl {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer {
+    border-top: solid 1px #f37400;
+    padding: 0.9em;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    background: #23252b;
+    color: white;
+  }
+
+  .list-nav li:nth-child(1n + 2),
+  .list-nav2 li:nth-child(1n + 2) {
+    display: none;
+  }
+
+  .icons-footer-mbl {
+    a {
+      text-decoration: none;
+      color: white;
+      align-items: center;
+      align-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    svg {
+      color: #f37400;
+    }
+  }
+}
+
+@media (min-width:576px) and (max-width:768px)  {
+  .shop-grid {
+    width: 90%;
+    width: -moz-available;
+    justify-content: flex-start;
+    overflow-y: scroll;
+  }
+  .contenedor-about{
+    background: #f374005e;
+    justify-content: center;
+  }
+}
+@media (max-width:1000px){
+  .stats-us{
+    width: 90%;
+  }
+}

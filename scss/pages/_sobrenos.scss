@@ -1,0 +1,156 @@
+.about-us {
+    background-color: $var-color-background;
+    width: 100%;
+}
+
+.contenedor-about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url(https://www.todofondos.net/wp-content/uploads/3840x2160-Ultra-HD-Anime-Girls-4K-Ultra-HD-Wallpaper-Descargar-4K-Desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: end;
+    background-position-y: -100px;
+}
+
+.main-imagen-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-icon {
+    color: $var-color-font;
+    background-color: $var-color-background;
+    height: 230px;
+    width: 100%;
+}
+
+.main-imagen-logo {
+    display: flex;
+    justify-content: space-evenly;
+
+    h1 {
+        font-size: 2.7rem;
+        letter-spacing: 6px;
+    }
+}
+
+.info-dev-img img {
+    border: 2px solid $var-color-font;
+    width: 200px;
+    background-size: contain;
+    border-radius: 50%;
+    position: relative;
+    bottom: 150px;
+}
+
+.main-img-fondo img {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    border-bottom: 2px solid $var-color-background;
+}
+
+.info-card {
+    height: 150px;
+}
+
+.main-img-fondo {
+    width: 100%;
+    height: 310px;
+}
+
+.info-dev {
+    background-color: $var-bg-about;
+    width: 250px;
+    height: 200px;
+    border-radius: 10%;
+    border: 1px solid $var-color-font;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-dev-img {
+    height: 80px;
+}
+
+.dev-img {
+    text-align: center;
+}
+
+.card-info-dev {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.card-info-btn a {
+    color: $var-color-font;
+}
+
+.colors-dev1:hover {
+    color: #3a4ed5;
+}
+
+.colors-dev2:hover {
+    color: #171515;
+}
+
+.colors-dev3 svg:hover {
+    border-radius: 5.5px;
+    border: 1px solid #fd584969;
+    color: $var-color-font-cards;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.stats-us {
+    display: flex;
+    color: $var-color-font-cards;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 60%;
+    height: auto;
+    border: $var-border-content;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: $var-bg-stats-us;
+}
+
+.img-us {
+    width: 40%;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+}
+
+.tag-us {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    h3 {
+        letter-spacing: 0.2rem;
+    }
+}
+
+.item-us {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.title-about-us {
+    border-bottom: 1px solid $var-color-font-cards;
+    letter-spacing: 0.5rem;
+    width: 50%;
+}

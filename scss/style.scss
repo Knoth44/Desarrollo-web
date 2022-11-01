@@ -1,0 +1,18 @@
+@import "./base/reset";
+@import "./base/base";
+
+@import "./layout/header";
+@import "./layout/form";
+@import "./layout/footer";
+
+@import "./utils/mixins";
+@import "./utils/variables";
+
+@import "./components/buttons";
+
+@import "./pages/index";
+@import "./pages/sobrenos";
+@import "./pages/explorar";
+@import "./pages/tienda";
+@import "./pages/contacto";
+@import "./pages/mediapages";
