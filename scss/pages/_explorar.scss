@@ -15,7 +15,9 @@
 
     &2 {
       list-style: none;
-
+      & a:hover {
+        color: $var-color-font;
+      }
       a {
         color: $var-color-a;
         text-decoration: none;
