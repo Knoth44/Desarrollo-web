@@ -3,6 +3,7 @@ footer {
     padding: 1em 0;
     padding-top: 10px;
     width: 100%;
+    height: auto;
     background: linear-gradient(rgb(0, 0, 0), rgb(115, 115, 168));
 }
 
@@ -82,13 +83,14 @@ footer {
     }
 
     footer {
-        border-top: solid 1px #f37400;
-        padding: 0.9em;
-        width: 100%;
-        position: sticky;
-        bottom: 0;
-        background: #23252b;
-        color: white;
+        // border-top: solid 1px #f37400;
+        // padding: 0.9em;
+        // width: 100%;
+        // position: sticky;
+        // bottom: 0;
+        // background: #23252b;
+        // color: white;
+        height: auto;
     }
 
     .list-nav li:nth-child(1n + 2),
